@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: bisque;
+}
+
+header {
+  width: 50%;
+  margin: 0 auto;
+}
+
+header .header-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 150px;
+}
+
+header .squares-block {
+  margin: 55px;
+  text-align: center;
+}
+
+header .squares .first {
+  background-color: pink;
+}
+
+header .squares .second {
+  background-color: green;
+}
+
+header .squares .third {
+  background-color: orange;
+}
+
+header .squares .fourth {
+  background-color: #3F92AF;
+}
+
+header .squares .square {
+  width: 100px;
+  height: 100px;
+}
+
+header .squares button {
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 3px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .squares button:hover {
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */

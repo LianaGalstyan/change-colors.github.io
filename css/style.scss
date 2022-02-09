@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+header {
+    width: 50%;
+    margin: 0 auto;
+    .header-section {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 150px;
+    }
+    .squares-block {
+        margin: 55px;
+        text-align: center;
+    }
+    .squares {
+        .first {
+            background-color: pink;
+        }
+        .second {
+            background-color: green;
+        }
+        .third {
+            background-color: orange;
+        }
+        .fourth {
+            background-color: #3F92AF;
+        }
+       .square {
+        width: 100px;
+        height: 100px;
+      } 
+      button {
+          border: 1px solid black;
+          border-radius: 50px;
+          margin-top: 5px;
+          margin-bottom: 15px;
+          padding: 3px;
+          cursor: pointer;
+          transition: 0.5s;
+          &:hover {
+              padding: 5px;
+          }
+      }
+    }
+    
+}
